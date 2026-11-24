@@ -31,7 +31,7 @@ public class Problema4{
         }
 
         for (int i = 0; i < vector2.length; i++) {
-            IO.println(Arrays.toString(vector2[i]));
+            System.out.println(Arrays.toString(vector2[i]));
         }
 
         sc.close();
