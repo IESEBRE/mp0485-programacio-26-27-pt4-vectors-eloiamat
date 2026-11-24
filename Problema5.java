@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -29,7 +28,7 @@ public class Problema5 {
             int menor = 0;
 
             for (int j = 1; j < llista.length; j++) {
-                if (llista[i][j].compareTo(llista[i][menor]) < 0) {
+                if (llista[i][j].compareTo(llista[i][menor]) <= 0) {
                     menor = j;
                 }
             }
